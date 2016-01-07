@@ -18,5 +18,5 @@ class G1Item(scrapy.Item):
     link = scrapy.Field()
     title = scrapy.Field()
     resume = scrapy.Field()     
-
+    aggregated = scrapy.Field()
     pass
